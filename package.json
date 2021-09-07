@@ -1,6 +1,6 @@
 {
   "name": "cethour",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "package to get central european time",
   "main": "index.js",
   "scripts": {
