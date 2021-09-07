@@ -1,0 +1,19 @@
+{
+  "name": "cethour",
+  "version": "1.0.0",
+  "description": "package to get central european time",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/guillaumearnx/CETHour.git"
+  },
+  "author": "arnoux23u",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/guillaumearnx/CETHour/issues"
+  },
+  "homepage": "https://github.com/guillaumearnx/CETHour#readme"
+}
