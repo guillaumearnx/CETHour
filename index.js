@@ -1,4 +1,4 @@
-let getTime = async () => {
+let getTime = async (timestampMode = false) => {
     const localDate = await new Date();
     const utcOffset = localDate.getTimezoneOffset();
     const cetOffset = utcOffset + 60;
@@ -24,8 +24,7 @@ let getTime = async () => {
     const day = weekday[hResult.getDay()];
     const year = hResult.getFullYear();
     const date = hResult.getDate();
-
-    return {
+    return timestampMode ? new Date(hResult).getTime() : {
         day,
         date,
         month,
